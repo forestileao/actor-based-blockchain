@@ -1,0 +1,184 @@
+2022.02.07 19:27:42 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hellhat/Documents/actor-based-blockchain/.metals/lsp.trace.json or /home/hellhat/.cache/metals/lsp.trace.json[0m
+2022.02.07 19:27:43 INFO  logging to file /home/hellhat/Documents/actor-based-blockchain/.metals/metals.log[0m
+2022.02.07 19:27:43 INFO  Started: Metals version 0.11.1 in workspace '/home/hellhat/Documents/actor-based-blockchain' for client Visual Studio Code 1.64.0.[0m
+2022.02.07 19:27:43 INFO  Parse release: 11.0.11[0m
+2022.02.07 19:27:56 INFO  time: initialize in 13s[0m
+2022.02.07 19:27:57 WARN  Build server is not auto-connectable.[0m
+2022.02.07 19:27:58 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/Transaction.scala[0m
+2022.02.07 19:28:04 INFO  running '/home/hellhat/.cache/coursier/jvm/adopt@1.11.0-11/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12693541313560743756/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.02.07 19:28:05 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/project/metals.sbt[0m
+2022.02.07 19:28:05 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/project/project/metals.sbt[0m
+2022.02.07 19:28:05 INFO  skipping build import with status 'Started'[0m
+2022.02.07 19:28:07 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.11)[0m
+2022.02.07 19:28:09 INFO  [info] loading global plugins from /home/hellhat/.sbt/1.0/plugins[0m
+2022.02.07 19:28:14 INFO  [info] loading settings for project actor-based-blockchain-build-build from metals.sbt ...[0m
+2022.02.07 19:28:14 INFO  [info] loading project definition from /home/hellhat/Documents/actor-based-blockchain/project/project[0m
+2022.02.07 19:28:19 INFO  no build target found for /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/Transaction.scala. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.02.07 19:28:23 INFO  time: code lens generation in 18s[0m
+2022.02.07 19:28:23 INFO  time: code lens generation in 24s[0m
+2022.02.07 19:28:24 INFO  [info] loading settings for project actor-based-blockchain-build from metals.sbt ...[0m
+2022.02.07 19:28:24 INFO  [info] loading project definition from /home/hellhat/Documents/actor-based-blockchain/project[0m
+2022.02.07 19:28:26 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/crypto/Crypto.scala[0m
+2022.02.07 19:28:29 INFO  [success] Generated .bloop/actor-based-blockchain-build.json[0m
+2022.02.07 19:28:29 INFO  [success] Total time: 5 s, completed Feb 7, 2022, 7:28:30 PM[0m
+2022.02.07 19:28:32 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.02.07 19:28:32 INFO  [info] set current project to actor-based-blockchain (in build file:/home/hellhat/Documents/actor-based-blockchain/)[0m
+2022.02.07 19:28:33 INFO  [success] Generated .bloop/root-test.json[0m
+2022.02.07 19:28:33 INFO  [success] Generated .bloop/root.json[0m
+2022.02.07 19:28:33 INFO  [success] Total time: 1 s, completed Feb 7, 2022, 7:28:33 PM[0m
+2022.02.07 19:28:33 INFO  time: ran 'sbt bloopInstall' in 28s[0m
+2022.02.07 19:28:33 INFO  Attempting to connect to the build server...[0m
+2022.02.07 19:28:37 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/Chain.scala[0m
+2022.02.07 19:29:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hellhat/Documents/actor-based-blockchain/.metals/bsp.trace.json or /home/hellhat/.cache/metals/bsp.trace.json[0m
+2022.02.07 19:29:02 INFO  Attempting to connect to the build server...[0m
+2022.02.07 19:29:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hellhat/Documents/actor-based-blockchain/project/.metals/bsp.trace.json or /home/hellhat/.cache/metals/bsp.trace.json[0m
+2022.02.07 19:29:08 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/Chain.scala[0m
+2022.02.07 19:29:08 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/Chain.scala[0m
+2022.02.07 19:29:11 WARN  no build target for: /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/Chain.scala[0m
+2022.02.07 19:29:14 INFO  time: Connected to build server in 40s[0m
+2022.02.07 19:29:14 INFO  Connected to Build server: Bloop v1.4.12[0m
+2022.02.07 19:29:14 INFO  time: Imported build in 0.27s[0m
+Feb 07, 2022 7:29:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+2022.02.07 19:29:31 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.02.07 19:29:31 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.02.07 19:29:33 INFO  compiling root (4 scala sources)[0m
+2022.02.07 19:29:37 INFO  time: indexed workspace in 22s[0m
+2022.02.07 19:29:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.1' (since 36.742s)[0m
+2022.02.07 19:29:37 INFO  compiling root (4 scala sources)[0m
+2022.02.07 19:29:37 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.02.07 19:29:41 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.02.07 19:29:47 INFO  time: compiled root in 10s[0m
+Feb 07, 2022 7:29:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Feb 07, 2022 7:30:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+Feb 07, 2022 7:30:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Feb 07, 2022 7:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 101
+Feb 07, 2022 7:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+2022.02.07 19:30:40 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:30:40 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:31:18 INFO  compiling root (4 scala sources)[0m
+2022.02.07 19:31:20 INFO  time: compiled root in 1.33s[0m
+2022.02.07 19:32:39 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:32:40 INFO  time: compiled root in 1.24s[0m
+2022.02.07 19:32:40 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:32:40 INFO  time: compiled root in 0.87s[0m
+2022.02.07 19:32:47 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:32:48 INFO  time: compiled root in 1.21s[0m
+2022.02.07 19:37:16 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:37:17 INFO  time: compiled root in 1.56s[0m
+2022.02.07 19:37:37 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:37:39 INFO  time: compiled root in 1.72s[0m
+2022.02.07 19:37:53 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:37:54 INFO  time: compiled root in 1.47s[0m
+2022.02.07 19:37:58 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:37:59 INFO  time: compiled root in 1.54s[0m
+2022.02.07 19:38:35 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:39:10 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:39:12 INFO  time: compiled root in 1.62s[0m
+2022.02.07 19:39:41 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:39:42 INFO  time: compiled root in 1.5s[0m
+2022.02.07 19:39:42 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:39:44 INFO  time: compiled root in 1.16s[0m
+2022.02.07 19:39:53 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:39:54 INFO  time: compiled root in 1.32s[0m
+2022.02.07 19:39:56 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:39:58 INFO  time: compiled root in 1.28s[0m
+2022.02.07 19:40:55 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:40:57 INFO  time: compiled root in 1.16s[0m
+2022.02.07 19:41:03 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:41:04 INFO  time: compiled root in 1.07s[0m
+2022.02.07 19:41:11 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:41:11 INFO  time: compiled root in 0.96s[0m
+2022.02.07 19:41:14 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:41:14 INFO  time: compiled root in 0.95s[0m
+2022.02.07 19:41:20 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:41:20 INFO  time: compiled root in 0.76s[0m
+2022.02.07 19:41:34 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:41:34 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:41:34 INFO  time: compiled root in 0.85s[0m
+2022.02.07 19:41:51 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:41:51 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:41:57 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:41:57 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:42:02 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:42:02 INFO  time: compiled root in 0.54s[0m
+2022.02.07 19:42:10 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:42:10 INFO  time: compiled root in 0.49s[0m
+2022.02.07 19:42:16 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:42:16 INFO  time: compiled root in 0.46s[0m
+Feb 07, 2022 7:42:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1868
+2022.02.07 19:42:46 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:42:46 INFO  time: compiled root in 0.54s[0m
+2022.02.07 19:42:52 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:42:52 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/utils/JsonSupport.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:42:57 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:42:57 INFO  time: compiled root in 0.69s[0m
+2022.02.07 19:42:57 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:42:59 INFO  time: compiled root in 0.6s[0m
+2022.02.07 19:43:08 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:43:08 INFO  time: compiled root in 0.66s[0m
+2022.02.07 19:43:14 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:43:14 INFO  time: compiled root in 0.54s[0m
+2022.02.07 19:43:24 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:43:24 INFO  time: compiled root in 0.6s[0m
+2022.02.07 19:43:54 INFO  /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala:21:39: stale bloop error: Recursive value guessHash needs type
+    val guessHash = Crypto.sha256Hash(guessHash)
+                                      ^[0m
+2022.02.07 19:43:54 INFO  /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala:21:49: stale bloop error: Found:    Unit
+Required: Boolean
+    val guessHash = Crypto.sha256Hash(guessHash)
+                                                ^[0m
+2022.02.07 19:43:54 INFO  /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala:21:39: stale bloop error: Recursive value guessHash needs type
+    val guessHash = Crypto.sha256Hash(guessHash)
+                                      ^[0m
+2022.02.07 19:43:54 INFO  /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala:21:49: stale bloop error: Found:    Unit
+Required: Boolean
+    val guessHash = Crypto.sha256Hash(guessHash)
+                                                ^[0m
+2022.02.07 19:44:04 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:44:04 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:44:04 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.02.07 19:44:04 INFO  time: compiled root in 0.79s[0m
+2022.02.07 19:44:14 INFO  compiling root (5 scala sources)[0m
+2022.02.07 19:44:14 INFO  time: compiled root in 0.42s[0m
+2022.02.07 19:45:03 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:45:03 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:45:05 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 19:45:11 ERROR code navigation does not work for the file '/home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala' because the SemanticDB file '/home/hellhat/Documents/actor-based-blockchain/.bloop/root/bloop-bsp-clients-classes/classes-Metals-RAH_7WWXQ4Wjq2ZCoQV_OQ==/META-INF/semanticdb/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+2022.02.07 20:05:43 INFO  compiling root (5 scala sources)[0m
+2022.02.07 20:05:43 INFO  time: compiled root in 0.59s[0m
+2022.02.07 20:05:48 INFO  shutting down Metals[0m
+2022.02.07 20:05:48 INFO  Shut down connection with build server.[0m
+2022.02.07 20:05:48 INFO  Shut down connection with build server.[0m
+2022.02.08 00:51:11 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hellhat/Documents/actor-based-blockchain/.metals/lsp.trace.json or /home/hellhat/.cache/metals/lsp.trace.json[0m
+2022.02.08 00:51:16 INFO  logging to file /home/hellhat/Documents/actor-based-blockchain/.metals/metals.log[0m
+2022.02.08 00:51:16 INFO  Started: Metals version 0.11.1 in workspace '/home/hellhat/Documents/actor-based-blockchain' for client Visual Studio Code 1.64.0.[0m
+2022.02.08 00:51:16 INFO  Parse release: 11.0.11[0m
+2022.02.08 00:51:24 INFO  time: initialize in 7.53s[0m
+2022.02.08 00:51:27 INFO  Attempting to connect to the build server...[0m
+2022.02.08 00:51:27 INFO  skipping build import with status 'Installed'[0m
+2022.02.08 00:51:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hellhat/Documents/actor-based-blockchain/.metals/bsp.trace.json or /home/hellhat/.cache/metals/bsp.trace.json[0m
+2022.02.08 00:51:40 INFO  Attempting to connect to the build server...[0m
+2022.02.08 00:51:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/hellhat/Documents/actor-based-blockchain/project/.metals/bsp.trace.json or /home/hellhat/.cache/metals/bsp.trace.json[0m
+2022.02.08 00:51:40 INFO  time: Connected to build server in 14s[0m
+2022.02.08 00:51:40 INFO  Connected to Build server: Bloop v1.4.12[0m
+2022.02.08 00:51:43 INFO  no build target found for /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.02.08 00:51:43 INFO  time: code lens generation in 15s[0m
+Feb 08, 2022 12:51:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2022.02.08 00:51:45 INFO  time: Imported build in 0.85s[0m
+2022.02.08 00:51:46 INFO  no build target found for /home/hellhat/Documents/actor-based-blockchain/src/main/scala/com/hellhat/actorbasedblockchain/blockchain/ProofOfWork.scala. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.02.08 00:51:55 INFO  time: indexed workspace in 10s[0m
+2022.02.08 00:51:58 INFO  compiling root (5 scala sources)[0m
+2022.02.08 00:52:09 INFO  time: compiled root in 11s[0m
+2022.02.08 00:52:40 INFO  compiling root (5 scala sources)[0m
+2022.02.08 00:52:41 INFO  time: compiled root in 1.29s[0m
+2022.02.08 00:52:42 INFO  shutting down Metals[0m
+2022.02.08 00:52:42 INFO  Shut down connection with build server.[0m
+2022.02.08 00:52:42 INFO  Shut down connection with build server.[0m
