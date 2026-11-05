@@ -27,7 +27,7 @@
 **Build/CI**
 - No CI is defined. If you add CI, cache sbt and Coursier; run compile and test tasks.
 
-**Coding Conventions and Naming**
+**Coding Conventions**
 - Package: com.hellhat.actorbasedblockchain.
 - Prefer immutable data (case classes, vals) and pure functions.
 - Keep functions small; avoid side effects in domain code.
